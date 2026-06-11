@@ -27,6 +27,25 @@
 
 </div>
 
+<br>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <h2>👻 NEW: <a href="https://github.com/Abdenasser/neohtop-cli">NeoHtop CLI</a> is here!</h2>
+        <p><strong>All the power of NeoHtop, right in your terminal</strong> — real-time CPU sparklines, memory bars, process tree view, search, filters, themes & more.</p>
+        <p>Built with <b>Go</b> + the <b>Charm</b> ecosystem. Works everywhere — macOS, Linux, Windows.</p>
+        <br>
+        <a href="https://github.com/Abdenasser/neohtop-cli"><img src="https://img.shields.io/badge/⭐_Star_NeoHtop_CLI-171717?style=for-the-badge&logo=github&logoColor=white" alt="Star NeoHtop CLI"></a>&nbsp;
+        <a href="https://www.npmjs.com/package/neohtop-cli"><img src="https://img.shields.io/npm/v/neohtop-cli?style=for-the-badge&logo=npm&logoColor=white&label=npm&color=CB3837" alt="npm"></a>
+        <br><br>
+        <pre>npm install -g neohtop-cli</pre>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ## Table of Contents
 - [Why NeoHtop?](#why-neohtop)
 - [Features](#features)
@@ -77,7 +96,67 @@ Examples:
 - Xcode Command Line Tools (for macOS)
 
 ### Installation
+
+#### Manual
 Download the latest release from the [releases page](https://github.com/Abdenasser/neohtop/releases).
+
+#### Package Managers
+
+Members of the community have kindly published unofficial packages for various platforms and package managers.
+
+Please note, these packages are community-maintained and not officially released, reviewed, or endorsed by NeoHtop.
+We only provide official builds through the GitHub Releases page.
+Since these external packages are managed by third parties, we cannot guarantee their security, integrity, or update frequency.
+
+Please use them at your own discretion.
+
+##### macOS
+
+Using [Homebrew](https://brew.sh/).
+
+```bash
+brew install --cask neohtop
+```
+
+##### Arch Linux (AUR)
+
+Using the [AUR](https://aur.archlinux.org/) and [an AUR helper](https://wiki.archlinux.org/title/AUR_helpers).
+
+```bash
+yay -S neohtop
+```
+
+or
+
+```bash
+paru -S neohtop
+```
+
+##### Fedora Linux
+Install the [Terra repository](https://terra.fyralabs.com/).
+
+```bash
+dnf install neohtop
+```
+
+##### Windows
+Install the [Scoop repository](https://scoop.sh/), then make sure you have the Scoop extras bucket added:
+
+```bash
+scoop bucket add extras
+```
+
+Then install with:
+
+```bash
+scoop install extras/neohtop
+```
+
+##### Solus
+
+```bash
+eopkg install neohtop
+```
 
 ### Running with Sudo
 Some processes require monitoring with sudo privileges. To monitor these processes, launch NeoHtop with sudo:
